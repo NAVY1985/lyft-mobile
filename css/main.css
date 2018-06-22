@@ -1,0 +1,29 @@
+
+.container1 {
+    background: linear-gradient(#F600BD, #C500B2);
+    height: 767px;
+}
+
+.logo-white {
+     max-width: 100%;
+     position: relative;
+     top: 230px;
+}
+
+.container2 {
+    background: url(../assets/images/noche.jpg);
+    height: 767px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+}
+
+.logo-pink {
+    max-width: 100%;
+    
+}
+
+.botones {
+   
+}

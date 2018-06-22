@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <title>lyft mobile</title>
+</head>
+<body>
+  <div class="container-fluid container1">
+    <div class="row d-flex justify-content-center">
+      <div class="col-6 col-md-2 logo-white">
+        <img class="img-fluid" src="assets/images/logo-white.png" alt="">
+      </div>
+    </div>
+  </div>
+  <section class="container-fluid container2">
+    <div class="row">
+      <div class="col-6 col-md-2 mt-4">
+        <img class="img-fluid" src="assets/images/logo-white.png" alt="">
+        <div class="row">
+          <div class="col-8 mt-4 logo-pink offset-4">
+            <img class="img-fluid" src="assets/images/logo-pink.png" alt="">
+          </div>
+        </div>
+        <div class="row d-flex justify-content-around">
+          <div class="col-4 botones mt-4">
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                  Sig up
+              </button>
+          </div>
+          <div class="col-4 botones mt-4">
+            <button type="button" class="btn btn-primary text-white">Log in</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+    <!--modales-->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Sig Up</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+
+               <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                    <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</button>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#"><img src="assets/images/brasil.png" alt=""></a>
+                      <a class="dropdown-item" href="#"><img src="assets/images/usa.png" alt=""></a>
+                      <a class="dropdown-item" href="#"><img src="assets/images/mexico.png" alt=""></a>
+                    </div>
+                  </div>
+                  <input type="text" class="form-control" id="phone-number" aria-label="Text input with dropdown button" placeholder="Phone">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary" id="next-button">Next</button>
+                </div>
+              </div>
+            </div>
+          </div>
+ 
+        
+    
+
+
+
+
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
