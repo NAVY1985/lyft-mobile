@@ -28,7 +28,7 @@ $(document).ready(function () {
  
     });
     var $randomNumber = 0;
-    $randomNumber = Math.floor(Math.random()).toFixed(2);
+    $randomNumber = parseInt(Math.random()*1000) ;
     console.log("LAB-"+ $randomNumber);
    
    $("#next-button").click(function(){
